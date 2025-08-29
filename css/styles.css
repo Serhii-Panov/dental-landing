@@ -12,7 +12,10 @@ h6,
 p {
   margin: 0;
 }
-
+h3 {
+  margin: 24px 0;
+  font-size: 24px;
+}
 .header {
   background: linear-gradient(135deg, #2468e6, #1d45ac);
   color: white;
@@ -44,9 +47,6 @@ p {
 }
 
 .contact-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   font-size: 16px;
 }
 
@@ -105,8 +105,7 @@ footer {
   color: #fff;
   padding: 32px 16px;
 }
-.contacts {
-}
+
 .contacts-list {
   display: flex;
   flex-direction: column;
