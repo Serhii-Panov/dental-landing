@@ -1,0 +1,124 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.header {
+  background: linear-gradient(135deg, #2468e6, #1d45ac);
+  color: white;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.header-label {
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0 0 8px;
+}
+
+.header .subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ddd;
+  margin: 0 0 20px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.contact-list li {
+  margin-bottom: 6px;
+}
+
+.pricing {
+  background: #f8fbff;
+  padding: 60px 20px;
+  text-align: center;
+}
+.pricing-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.pricing-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+}
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a73e8;
+}
+
+footer {
+  background-color: #1f2936;
+  color: #fff;
+  padding: 32px 16px;
+}
+.contacts {
+}
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacts-item {
+  color: #1a73e8;
+  text-align: center;
+}
+.footer-text {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
