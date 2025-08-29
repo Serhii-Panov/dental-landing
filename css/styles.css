@@ -12,10 +12,7 @@ h6,
 p {
   margin: 0;
 }
-h3 {
-  margin: 24px 0;
-  font-size: 24px;
-}
+
 .header {
   background: linear-gradient(135deg, #2468e6, #1d45ac);
   color: white;
@@ -73,6 +70,10 @@ h3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
+}
+.pricing-category {
+  margin: 24px 0;
+  font-size: 24px;
 }
 .card {
   background: #fff;
