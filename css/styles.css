@@ -13,6 +13,11 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header {
   background: linear-gradient(135deg, #2468e6, #1d45ac);
   color: white;
@@ -45,6 +50,12 @@ p {
 
 .contact-list {
   font-size: 16px;
+}
+.contact-list li {
+  display: flex;
+}
+.icon {
+  margin-right: 8px;
 }
 
 .contact-list li {
@@ -116,6 +127,8 @@ footer {
 .contacts-item {
   color: #1a73e8;
   text-align: center;
+  font-style: normal;
+  text-decoration: none;
 }
 .footer-text {
   text-align: center;
