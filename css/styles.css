@@ -127,7 +127,7 @@ footer {
   text-decoration: none;
 }
 .contacts-item:hover {
-  color: #e99931;
+  color: #46340e;
 }
 .footer-text {
   text-align: center;
@@ -138,15 +138,52 @@ footer {
   .header-label {
     margin-bottom: 20px;
   }
+  .header h1 {
+    margin-bottom: 36px;
+  }
+  .pricing {
+    padding-top: 80px;
+  }
+  .pricing-title {
+    font-size: 48px;
+    margin-bottom: 80px;
+  }
   .pricing-category-container {
     border: transparent;
     border-radius: 28px;
-    background-color: #43a0b1;
+    background-color: #3eb489;
     padding: 36px;
     margin-bottom: 10px;
   }
   .pricing-category {
     font-size: 32px;
     color: #fff;
+  }
+  .footer-cta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px;
+    background-color: #e99931;
+    border: transparent;
+    border-radius: 28px;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .footer-text {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .cta-phone {
+    padding: 8px 16px;
+    background-color: #2468e6;
+    border-radius: 8px;
+  }
+  .cta-phone:hover {
+    background-color: #0a54dd;
+    color: #000;
+  }
+  .contacts-list {
+    gap: 16px;
   }
 }
